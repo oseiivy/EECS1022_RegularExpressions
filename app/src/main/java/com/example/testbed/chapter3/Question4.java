@@ -9,7 +9,7 @@ public class Question4
         {
             price = 8;
         }
-        else if (age > 10 && age< 17 || age > 60)
+        else if (age >= 10 && age <= 17 || age > 60)
         {
             price = 10;
         }
