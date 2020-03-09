@@ -5,6 +5,7 @@ public class Question5
     public static int factorial(int n)
     {
         int factorial = 1;
+
         try{
             if (n<0)
             {
@@ -27,7 +28,7 @@ public class Question5
     }
 
     public static void main(String[] args) {
-        System.out.println(Question5.factorial(4));
+        System.out.println(Question5.factorial(-1));
     }
 
 }
