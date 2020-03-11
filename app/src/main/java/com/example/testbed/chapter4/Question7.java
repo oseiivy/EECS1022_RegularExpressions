@@ -8,12 +8,12 @@ public class Question7
     public static int totalCredit(String str)
     {
         int sum = 0;
-        String regex = "([E][E][C][S]|[e][e][c][s]|[C][S][E]|[c][s][e])\\d{4}\\.+(\\[)?(\\d)";
+        String regex = "([E][E][C][S]|[e][e][c][s]|[C][S][E]|[c][s][e])\\d{4}\\.+\\[?(\\d)";
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(str);
         for (; matcher.find();)
         {
-            sum = sum + Integer.parseInt(matcher.group(3));
+            sum = sum + Integer.parseInt(matcher.group(2));
         }
         return sum;
     }
