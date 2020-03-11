@@ -20,7 +20,7 @@ public class Question4
     }
 
     public static void main(String[] args) {
-        System.out.println(Question4.isValidDNA("ATGACG"));
+        System.out.println(Question4.isValidDNA("ATGkCG"));
     }
 }
 
