@@ -3,7 +3,7 @@ package com.example.testbed.chapter4;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Question2
+public class Question4
 {
     public static boolean isValidDNA(String dna)
     {
@@ -20,7 +20,7 @@ public class Question2
     }
 
     public static void main(String[] args) {
-        System.out.println(Question2.isValidDNA("ATGACG"));
+        System.out.println(Question4.isValidDNA("ATGACG"));
     }
 }
 
