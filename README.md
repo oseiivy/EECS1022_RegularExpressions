@@ -1,4 +1,4 @@
-# TestBed
+# TestBed: Regular Expressions and Other Algorithms
 Chapter 3:<br/>
   Question 3:<br/>
   Implemement the following method which takes two int parameters a and b and returns the sum of the squares of all integers in [a,b]. For example, sumSquares(3,5) should return 50 because (3^2 + 4^2 + 5^2 = 50). The method should return 0 if a is not less than b.<br/>
